@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/filter_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <RadioButton
+            android:id="@+id/radioButton_recent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:duplicateParentState="false"
+            android:gravity="center_vertical"
+            android:text="@string/recent"
+            android:textAlignment="center"
+            android:textStyle="normal|bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton_low_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="@string/less_price"
+            android:textAlignment="center"
+            android:textStyle="normal|bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton_hi_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="@string/most_price"
+            android:textAlignment="center"
+            android:textStyle="normal|bold" />
+    </RadioGroup>
+</LinearLayout>

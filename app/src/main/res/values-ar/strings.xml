@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_password">خطأ في اسم المستخدم أو كلمة المرور</string>
+    <string name="logined">تم تسجيل الدخول بنجاح</string>
+    <string name="srch">Search</string>
+</resources>

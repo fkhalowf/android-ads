@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiant"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.sami.ads.AdViewActivity"
+    tools:showIn="@layout/activity_ad_view">
+
+    <ProgressBar
+        android:id="@+id/progressBar_ad_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:visibility="visible" />
+
+    <ScrollView
+        android:id="@+id/scrollView_wrapper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/linearLayout_ad_view_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/loading"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/linearLayout_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/infocard_border">
+
+                <TextView
+                    android:id="@+id/textView_view_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/textView_view_title"
+                    android:layout_below="@+id/textView_view_title"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/textView_other_detail"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textView_view_detail"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="#009a9a"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/other_detail"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#d9e5f3" />
+
+                <TableLayout
+                    android:id="@+id/table_other_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/textView_other_detail">
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="@string/add_date"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        <TextView
+                            android:id="@+id/textView_detail_date"
+                            android:layout_weight="4"
+                            android:text="1-1-2010"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    </TableRow>
+
+                    <TableRow android:layout_margin="10dp">
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:text="@string/price"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        <TextView
+                            android:id="@+id/textView_detail_price"
+                            android:layout_weight="4"
+                            android:text="100 ليرة تركية"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    </TableRow>
+
+                </TableLayout>
+
+                <TextView
+                    android:id="@+id/textView_view_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="12dp"
+                    android:background="#009a9a"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="كرايسلر 2008 العائلية 7 راكب اعلى فئة اميريكي ممتازة"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#d9e5f3" />
+
+
+            </RelativeLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/infocard_border">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:background="#009a9a"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/contact_user"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#d9e5f3" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/name"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/textView_detail_user"
+                        android:layout_weight="4"
+                        android:text="فادي خلوف"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                </TableRow>
+
+                <TableRow android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="@string/phone"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/textView_detail_mobile"
+                        android:layout_weight="4"
+                        android:text="+905312345678"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                </TableRow>
+
+                <TableRow android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="@string/City"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/textView_detail_city"
+                        android:layout_weight="4"
+                        android:text="حلب"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+

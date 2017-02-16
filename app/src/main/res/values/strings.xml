@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Ads</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">New account</string>
+    <string name="title_activity_all_ads">Show all ads</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Register</string>
+    <string name="action_sign_in_short">Register</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_add_ad">Add new ad</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="title_activity_ad_view">Ad detail</string>
+    <string name="title_activity_select_city">Select city</string>
+    <string name="title_activity_main">Buy and sell in Turkey</string>
+
+    <string name="title_activity_select_category">Select category</string>
+    <string name="title_activity_signin">Sign in</string>
+    <string name="title_activity_my_ad">My ads</string>
+    <string name="all_categories">All category</string>
+    <string name="City">City</string>
+    <string name="All">All</string>
+    <string name="Category">Category</string>
+    <string name="Sort">Sort</string>
+    <string name="recent">recent</string>
+    <string name="show_all_ads">Show all ads</string>
+    <string name="new_account">New account</string>
+    <string name="sign_out">Sign out</string>
+    <string name="my_ads">My ads</string>
+    <string name="new_ads">New ad</string>
+    <string name="title">Title</string>
+    <string name="category">Category</string>
+    <string name="city">City</string>
+    <string name="User">User</string>
+    <string name="date">Date</string>
+    <string name="price">Price</string>
+    <string name="stop_show_ad">Unpublish ad </string>
+    <string name="archived">archived</string>
+    <string name="less_price">Less Price</string>
+    <string name="most_price">Most price</string>
+    <string name="other_detail">Other Detail</string>
+    <string name="add_date">Date of add</string>
+    <string name="contact_user">Contact with user</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="photo_for_ads">photos for ads</string>
+    <string name="from_album">Album</string>
+    <string name="camera">camera</string>
+    <string name="address">Address</string>
+    <string name="detail">Detail</string>
+    <string name="sing_out">Sign out</string>
+    <string name="sort_by">Order By</string>
+    <string name="select">Select</string>
+    <string name="ads_in">"Ads in "</string>
+    <string name="all_city">All city</string>
+    <string name="error_password">Error in username or password</string>
+    <string name="logined">Login success</string>
+    <string name="srch">Search</string>
+
+    <string name="meinute_ago"> Minute ago</string>
+    <string name="houre_ago"> hour ago</string>
+    <string name="yesterday"> yesterday</string>
+    <string name="days_ago">" Days ago"</string>
+</resources>

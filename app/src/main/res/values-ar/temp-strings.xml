@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Ads</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">حساب جديد</string>
+    <string name="title_activity_all_ads">عرض جميع الإعلانات</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Register</string>
+    <string name="action_sign_in_short">Register</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_add_ad">إضافة إعلان</string>
+    <string name="cancel">إلغاء</string>
+    <string name="save">حفظ</string>
+    <string name="title_activity_ad_view">تفاصيل الإعلان</string>
+    <string name="title_activity_select_city">إختيار المدينة</string>
+    <string name="title_activity_main">بيع واشتري في تركيا</string>
+
+    <string name="title_activity_select_category">إختيار القسم</string>
+    <string name="title_activity_signin">تسجيل الدخول</string>
+    <string name="title_activity_my_ad"> إعلاناتي</string>
+    <string name="all_categories">جميع الأقسام</string>
+
+    <string name="City">المدينة</string>
+    <string name="All">جميع المدن</string>
+    <string name="Category">القسم</string>
+    <string name="Sort">فلترة</string>
+    <string name="recent">الاحدث</string>
+    <string name="show_all_ads"><![CDATA[عرض جميع الإعلانات >>]]></string>
+    <string name="new_account">عضوية جديدة</string>
+    <string name="sign_out">تسجيل الخروج</string>
+    <string name="my_ads">إعلاناتي</string>
+    <string name="new_ads">إعلان جديد</string>
+    <string name="title">العنوان</string>
+    <string name="category">القسم</string>
+    <string name="city">المدينة</string>
+    <string name="User">المعلن</string>
+    <string name="date">التاريخ</string>
+    <string name="price">السعر</string>
+    <string name="stop_show_ad">إيقاف نشر الإعلان</string>
+    <string name="archived">مؤرشف</string>
+    <string name="less_price">الأقل سعرا</string>
+    <string name="most_price">الأكتر سعرا</string>
+    <string name="other_detail">تفاصيل أخرى</string>
+    <string name="add_date">تاريخ الإضافة</string>
+    <string name="contact_user">التواصل مع المعلن</string>
+    <string name="name">الاسم</string>
+    <string name="phone">رقم الهاتف</string>
+    <string name="photo_for_ads">صور للإعلان</string>
+    <string name="from_album">من ألبوم</string>
+    <string name="camera">من الكاميرا</string>
+    <string name="address">العنوان</string>
+    <string name="detail">التفاصيل</string>
+
+    <string name="sing_out">تم تسجيل الخروج</string>
+    <string name="sort_by">ترتيب حسب</string>
+    <string name="select">إختيار</string>
+    <string name="ads_in">"الإعلانات في القسم "</string>
+    <string name="all_city">جميع المدن</string>
+    <string name="meinute_ago">قبل دقيقة</string>
+    <string name="houre_ago">قبل ساعة</string>
+    <string name="yesterday">البارحة</string>
+    <string name="days_ago">" يوم مضت"</string>
+</resources>
